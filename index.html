@@ -1,124 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>For You 💖</title>
-
-<style>
-body {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
     margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #ff9ecf, #ffcce6);
-    font-family: 'Comic Sans MS', cursive;
-    overflow: hidden;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 118, 193);
 }
 
-.container {
-    text-align: center;
-    z-index: 2;
-    position: relative;
+#particles {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
-
-h1 {
-    color: white;
-    font-size: 3rem;
-    text-shadow: 0 0 10px #ff66b2;
-}
-
-p {
-    color: white;
-    font-size: 1.3rem;
-    margin-top: 10px;
-}
-
-button {
-    margin: 15px;
-    padding: 15px 30px;
-    font-size: 20px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#yesBtn {
-    background: #ff4da6;
-    color: white;
-    box-shadow: 0 0 10px #ff66b2;
-}
-
-#noBtn {
-    background: white;
-    color: #ff4da6;
-    position: absolute;
-}
-
-/* Flowers */
-.flower {
-    position: absolute;
-    top: -50px;
-    font-size: 24px;
-    animation: fall linear infinite;
-}
-
-@keyframes fall {
-    to {
-        transform: translateY(110vh) rotate(360deg);
-    }
-}
-</style>
+    </style>
 </head>
 
+
+
 <body>
+<audio src="yung kai - blue (Lyrics).mp3" autoplay loop id="bgMusic"></audio>
+</center>
+    </div>
 
-<div class="container">
-    <h1>I love you 💖</h1>
-    <p>Will you be mine? 🌸</p>
+    <canvas id="particles"></canvas>
 
-    <button id="yesBtn">YES 💕</button>
-    <button id="noBtn">NO 😢</button>
-</div>
 
-<script>
-let size = 20;
-const yesBtn = document.getElementById("yesBtn");
-const noBtn = document.getElementById("noBtn");
+    <div>
+        <center>
+    <h1>To My Best Wifeyyy eveerrr </h1>
+    <br>
+    <img src="riirii.jpg" alt="" width="300px" height="300px">
+    </div>
 
-/* YES button grows */
-yesBtn.addEventListener("click", () => {
-    size += 10;
-    yesBtn.style.fontSize = size + "px";
-    yesBtn.style.padding = (size/2) + "px " + (size) + "px";
-});
+    <div>
+        <center>
+        <p><em> Awel 7aja fy la7dha hedhy 7abyt n9olk ranouma n7ebk brcha ya mama 
+            .
+            jyt fy 7yty bdltheli 180°<br>
+            5alitni nchouf fl denya rose w kolha ward kifk ensen ma7lek w yst7a9 kol chy fl denya hdhy nhbkk <br>
+            nhbkk mttswrch 9adech ya rnoummaa nhb kol 7aja fykk w mttswrch chnw ynjm ysyr fya m8yrk ...
+            <br>
+            entyy ensenaa qwiyyaa w mtrobyaaa w ma7lekk 3echt m3ak la7dhet ma7lehom w tajerb w brcha 7ajett jdod fy 7yty <br>
+            awlhom enou nhb mn kol 9albi w n7eb ensen b3yd 3liya ldrjet enou nrah bjnbi kol youm ensen kifk 5aleni ntbdl w nwli ma7leni bl3kss <br>
+            w 3omry ma rytt ensen ma7leh kifkk w 3omry ma kont ntsswr bch yjy nhar w nheb ensen b3yd 3liya w lhmdlh r9yt tofla kifk thbni w mra 3la 9a3da 
+            <br>
+            7abyt n9olk sama7ni 3la kol 7aja fy 3ale9tna 3mlta w fy kol kelma 7asesthelk w nchlh dyma lb3dhna w 3morna mnb3dou nchaalh ya ranouma ya toutaa enty 
 
-/* NO button runs away */
-noBtn.addEventListener("mouseover", () => {
-    const x = Math.random() * (window.innerWidth - 100);
-    const y = Math.random() * (window.innerHeight - 100);
+        </em></p>
+    </div>
 
-    noBtn.style.left = x + "px";
-    noBtn.style.top = y + "px";
-});
+    <br>
+    <br>
+    <br>
+    <hr>
+    <center>
+    <div>
+        <img src="1.jpg" alt="" width="200px" height="200px">
+        <img src="2.jpg" alt="" width="200px" height="200px">
+        <img src="3.jpg" alt="" width="200px" height="200px">
+        <img src="4.jpg" alt="" width="200px" height="200px">
+        <img src="5.jpg" alt="" width="200px" height="200px">
+        <img src="6.jpg" alt="" width="200px" height="200px">
+        <img src="7.jpg" alt="" width="200px" height="200px">
+        <img src="8.jpg" alt="" width="200px" height="200px">
+        <img src="9.jpg" alt="" width="200px" height="200px">
+        <img src="10.jpg" alt="" width="200px" height="200px">
+        <img src="11.jpg" alt="" width="200px" height="200px">
+        <img src="12.jpg" alt="" width="200px" height="200px">
+        <img src="13.jpg" alt="" width="200px" height="200px">
+        <img src="16.jpg" alt="" width="200px" height="200px">
+        <img src="15.jpg" alt="" width="200px" height="200px">
+        <img src="20.png" alt="" width="200px" height="200px">
+        </div>
+</center>
+        <hr>
+    <br>
+    <br>
+    <br>
+    <div>
+        <center>
+        <h1><strong>Some motivational..</strong></h1>
+        <p1>
+            ranoumti ya 3asoullaa enty twa kbert ya mama lezm tkounn 9wiya w tet7aml ms2ouliya tw enty lezm ttlhe bro7k 
+            <br>
+            w t5oudh brcha t7adiyet bch tt3lm w mch kol chy yjy bl sehl lezm tw ts3a chwy bch tchuf denya chwy w tousl w t3wdh lomk w bouk w t3ych et mrte7a ..
+            <br>
+            enty ensen 9wiy sd9ni t7amlt brcha fy 7yetk w 5astan bacek rytk 9wiya w t3lmt mnk kifh ntsrf fy la7dhet il s3yba enty 9a3da t3ml fy 7ajet s3yba w tet7assen kol nhar 
+            <br>
+            entyy ense we9f 3la se9ih wyn yty7 y3awed y9oum w 3omri mrytk ayest 5astan fy bakek enty 3malt brcha 7ajet s3ab w bch tos3b 3lik 7ajet o5ra ntw93ch 
+            <br>
+            mchhlhh 3lik wlhh mzyena wlh mzyena wlhh mzyena wlhh hwka n7lef mn 9bila w mtrobya w 3andk fy mo5kk w mkch dh3yfa fy nadhry w jwk bhyy w 3omri mritk ne9sa 7aja 
+            <br>
+            ken tra ro7k ml vision mte3i tw t3rf kifh nra fykk tb9a behta wlhh ... raneem l7aja n7b n9oulhelk enou enty lfou9 w bch tousll w bch t7a9e9 brcha 7ajet ya mama 
+            <br>
+            8yrk ytmna y7a9e9hm w ili 7a9e9hm fy 3mor kbyr .. 
+            stay hard babyyyyyy w ena m3ak dyma snad lik ya rouhyyy w omkkk wboukkk awl w7ad dyma n7ebouk brcha rnoummaa w dyma m3akk w m2amnin enkk chtfr7na kif ma fr7tna 9bal 
+            <br> 
+            thi9ti fyk 9wiya w nchlh chyjy nhra nbdew nsefrou w nhkiw fyh lmwdhu3 hedha w ndh7kou w nhbkk mwahhhh :3
+        </p1>
+        </center>
+    </div>
+   
 
-/* Flowers animation */
-function createFlower() {
-    const flower = document.createElement("div");
-    flower.classList.add("flower");
-    flower.innerText = "🌸";
+    <script>
+        const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
 
-    flower.style.left = Math.random() * 100 + "vw";
-    flower.style.animationDuration = (3 + Math.random() * 5) + "s";
+function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener("resize", resize);
 
-    document.body.appendChild(flower);
+const colors = [
+    "#ff7fa8",
+    "#ffb6c9",
+    "#ffd8e5",
+    "#ffe9d6",
+    "#fff4eb"
+];
 
-    setTimeout(() => flower.remove(), 8000);
+const particles = [];
+
+class Particle {
+    constructor() {
+        this.reset();
+        this.y = Math.random() * canvas.height;
+    }
+
+    reset() {
+        this.x = Math.random() * canvas.width;
+        this.y = canvas.height + Math.random() * 100;
+        this.radius = Math.random() * 3 + 2;
+        this.speed = Math.random() * 0.5 + 0.2;
+        this.color = colors[Math.floor(Math.random() * colors.length)];
+        this.alpha = Math.random() * 0.5 + 0.3;
+    }
+
+    update() {
+        this.y -= this.speed;
+        this.x += Math.sin(this.y * 0.01) * 0.2;
+
+        if (this.y < -20) {
+            this.reset();
+        }
+    }
+
+    draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+
+        ctx.fillStyle = this.color;
+        ctx.globalAlpha = this.alpha;
+
+        ctx.shadowBlur = 18;
+        ctx.shadowColor = this.color;
+
+        ctx.fill();
+    }
 }
 
-setInterval(createFlower, 300);
-</script>
+for (let i = 0; i < 120; i++) {
+    particles.push(new Particle());
+}
 
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    particles.forEach(p => {
+        p.update();
+        p.draw();
+    });
+
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(animate);
+}
+
+animate();
+
+document.getElementById("scrollBtn").addEventListener("click", () => {
+    document.getElementById("about").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+document.getElementById("bgMusic").volume = 0.1;{
+    document.getElementById("bgMusic").volume = 0.1; // 10% volume
+    const music = document.getElementById("bgMusic");
+}
+
+    </script>
 </body>
 </html>
